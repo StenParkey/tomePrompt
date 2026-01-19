@@ -1,7 +1,7 @@
 import { input, confirm } from '@inquirer/prompts';
 import User from '../models/userClass.js';
 
-const startUser = async () => {
+const attemptUser = async () => {
 	const nameInput = await input(
 		{
 			message: 'Welcome vagrant... What do they call you??',
@@ -24,15 +24,17 @@ const startUser = async () => {
 };
 
 export default async function initUser() {
-	let userAttempt;
-
+	let userAttemptObject;
 
 	while (true) {
-		userAttempt = await startUser()
+		userAttemptObject = await attemptUser();
 
-		if (userAttempt.userConfirmed) {
+		if (userAttemptObject.userConfirmed) {
 			const user = new User(userAttempt.userName)
+
+			// userAction Pushing will be later refactored into a class method for User
 			user.userActions.push(userAttempt);
+
 			return user;
 		}
 

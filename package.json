@@ -16,7 +16,7 @@
   },
   "license": "ISC",
   "author": "StenParkey",
-  "type": "commonjs",
+  "type": "module",
   "main": "dir/app.js",
   "scripts": {
     "test": "tomePrompt"
@@ -24,6 +24,5 @@
   "dependencies": {
     "@inquirer/prompts": "^8.2.0",
     "cli-frames": "^2.2.11"
-  },
-  "type": "module" 
+  }
 }

@@ -7,4 +7,8 @@ export default class User {
 	get userActions() {
 		return this._userActions
 	}
+
+	pushAction(action) {
+		this._userActions.push(action);
+	}
 }

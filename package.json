@@ -1,0 +1,29 @@
+{
+  "name": "tomeprompt",
+  "version": "0.0.1",
+  "description": "Witchy CLI App made w/ @inquirer/prompts and cli-frames",
+  "keywords": [
+    "\"CLI",
+    "App\""
+  ],
+  "homepage": "https://github.com/StenParkey/tomePrompt#readme",
+  "bugs": {
+    "url": "https://github.com/StenParkey/tomePrompt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StenParkey/tomePrompt.git"
+  },
+  "license": "ISC",
+  "author": "StenParkey",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "tomePrompt"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.2.0",
+    "cli-frames": "^2.2.11"
+  },
+  "type": "module" 
+}

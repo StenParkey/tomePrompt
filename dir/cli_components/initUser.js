@@ -30,8 +30,8 @@ export default async function initUser() {
 		userAttemptObject = await attemptUser();
 
 		if (userAttemptObject.userConfirmed) {
-			const user = new User(userAttempt.userName)
-			user.pushAction(userAttempt);
+			const user = new User(userAttemptObject.userName)
+			user.pushAction(userAttemptObject.userAction);
 
 			return user;
 		}

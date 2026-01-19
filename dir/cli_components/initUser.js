@@ -31,9 +31,7 @@ export default async function initUser() {
 
 		if (userAttemptObject.userConfirmed) {
 			const user = new User(userAttempt.userName)
-
-			// userAction Pushing will be later refactored into a class method for User
-			user.userActions.push(userAttempt);
+			user.pushAction(userAttempt);
 
 			return user;
 		}

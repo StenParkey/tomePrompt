@@ -1,13 +1,7 @@
 import { select, Separator } from '@inquirer/prompts';
 
-const initMainMenu = async () => {
-
-}
-
 export default async function mainMenu(user) {
-	await initMainMenu();
-
-	const menuSelection = await select(
+	return await select(
 		{
 			message: `Welcome... ${user.userName}.. to tomePrompt... `,
 			choices: [
@@ -45,7 +39,4 @@ export default async function mainMenu(user) {
 			]
 		}
 	);
-
-
-
 };

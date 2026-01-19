@@ -17,7 +17,7 @@
   "license": "ISC",
   "author": "StenParkey",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dir/app.js",
   "scripts": {
     "test": "tomePrompt"
   },

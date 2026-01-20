@@ -31,7 +31,7 @@ export default async function initUser() {
 
 		if (userAttemptObject.userConfirmed) {
 			const user = new User(userAttemptObject.userName)
-			user.pushAction(userAttemptObject.userAction);
+			user.pushAction(userAttemptObject);
 
 			return user;
 		}

@@ -6,7 +6,20 @@ const tomePrompt = async () => {
 	const user = await initUser();
 
 	await splashStartup();
-	const mainMenuSelection = await mainMenu(user);
+	const mainMenuSelectionObject = await mainMenu(user);
+
+	switch (mainMenuSelectionObject.selection) {
+		case 'diviutils':
+			break;
+		case 'battlesim':
+			break;
+		case 'armori':
+			break;
+		case 'spellbook':
+			break;
+		case 'loredex':
+			break;
+	}
 
 	//test logs
 	console.log(user);

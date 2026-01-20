@@ -14,12 +14,6 @@ export default async function mainMenu(user) {
 				},
 
 				{
-					name: 'spellBook',
-					value: 'spellbook',
-					description: 'Virtual Spell Codex. Read with care....'
-				},
-
-				{
 					name: 'battleSim',
 					value: 'battlesim',
 					description: 'Simulated Combat. Utilize various arms and incantations..'
@@ -27,8 +21,14 @@ export default async function mainMenu(user) {
 
 				{
 					name: 'arMori',
-					value: 'armory',
+					value: 'armori',
 					description: 'Artifact Database. Stores all manner of Weapons, Armors, Trinkets, and Oddities....'
+				},
+
+				{
+					name: 'spellBook',
+					value: 'spellbook',
+					description: 'Virtual Spell Codex. Read with care....'
 				},
 
 				{

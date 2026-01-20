@@ -3,7 +3,7 @@ import { select, Separator } from '@inquirer/prompts';
 export default async function mainMenu(user) {
 	return await select(
 		{
-			message: `Welcome... ${user.userName}.. to tomePrompt... `,
+			message: `Welcome... ${user.userName}....`,
 			choices: [
 				new Separator(),
 

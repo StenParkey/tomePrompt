@@ -4,7 +4,7 @@ import User from '../models/userClass.js';
 const attemptUser = async () => {
 	const nameInput = await input(
 		{
-			message: 'Welcome vagrant... What do they call you??',
+			message: 'Hello there vagrant... What do they call you??',
 			default: 'Anonymous User',
 		}
 	);

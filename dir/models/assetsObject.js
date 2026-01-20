@@ -14,7 +14,9 @@ const assetsObject = {
 		█▌                                                                   ▐█
 		███████████████████████████████████████████████████████████████████████`,
 
-	splashFrames: []
+	splashFrames: [],
+
+	exitTextFrames: []
 }
 
 export default { assetsObject };

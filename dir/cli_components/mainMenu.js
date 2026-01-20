@@ -1,7 +1,7 @@
 import { select, Separator } from '@inquirer/prompts';
 
 export default async function mainMenu(user) {
-	return await select(
+	const menuSelection = await select(
 		{
 			message: `Welcome... ${user.userName}....`,
 			choices: [
@@ -39,4 +39,11 @@ export default async function mainMenu(user) {
 			]
 		}
 	);
+
+	const menuSelectionObject = {
+		userAction: 'menu selection',
+		selection: menuSelection
+	}
+	user.pushAction(menuSelectionObject)
+	return menuSelectionObject;
 };

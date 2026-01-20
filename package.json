@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Witchy CLI App made w/ @inquirer/prompts and cli-frames",
   "keywords": [
-    "\"CLI",
-    "App\""
+    "CLI",
+    "App"
   ],
   "homepage": "https://github.com/StenParkey/tomePrompt#readme",
   "bugs": {
@@ -19,7 +19,7 @@
   "type": "module",
   "main": "dir/app.js",
   "scripts": {
-    "test": "tomePrompt"
+    "tomePrompt": "node lib/app.js"
   },
   "dependencies": {
     "@inquirer/prompts": "^8.2.0",

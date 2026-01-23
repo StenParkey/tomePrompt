@@ -6,4 +6,10 @@ tomePrompt is a CLI App and Micro JRPG made with plain ole JavaScript. Currently
 This project is still in early development, so keep your eyes peeled for updates!
 
 Thanks!
+
 -Jacky 🖤
+
+Clone the repo, cd into the tomePrompt directory, and try out the current build with:
+```bash
+npm run tomePrompt
+```

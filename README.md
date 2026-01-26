@@ -1,8 +1,5 @@
-![tomePrompt Title ASCII Art](./display_assets/tomeprompt_title.png)
-# 🕯️Hello! Welcome to tomePrompt 🕯️
+# 🕯️Hello! Welcome to![tomePrompt Title ASCII Art](./display_assets/tomePrompt_title.png)🕯️
 tomePrompt is a CLI App and Micro JRPG made with plain ole JavaScript. Currently I'm utilizing 2 libraries, [@inquirer/prompts](https://github.com/SBoudrias/Inquirer.js "GitHub Repo for @inquirer/prompts") by SBoudrias for the CLI itself, and [CLI-Frames](https://github.com/IonicaBizau/node-cli-frames "GitHub Repo for CLI-Frames") by IonicaBizau for handling animations.
-
-![tomePrompt Main Menu](./display_assets/tomeprompt_main_menu.png)
 
 This project is still in early development, so keep your eyes peeled for updates!
 
@@ -14,3 +11,4 @@ Clone the repo, cd into the tomePrompt directory, and try out the current build 
 ```bash
 npm run tomePrompt
 ```
+![tomePrompt Main Menu](./display_assets/tomeprompt_main_menu.png)

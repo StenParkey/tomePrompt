@@ -7,6 +7,8 @@ Thanks!
 
 -Jacky 🖤
 
+(2/21/26, Hey yall, halting development on this project for a bit. I feel it's gone a bit out of my current scope so I'm gonna take some time to strengthen up my current programming knowledge.)
+
 Clone the repo, cd into the tomePrompt directory, and try out the current build with:
 ```bash
 npm run tomePrompt
